@@ -1,0 +1,143 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #f7f5f5;
+    color: #0e0e0e;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+
+}
+
+.cont{
+    background-color: rgb(252, 244, 244);
+    height: 100vh;
+    width: 100%;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+    width: 100%;
+    height: 100px;
+    background-color: #fe725d16;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    color: #000000;
+    font-weight: 600;
+}
+.logo{
+    font-size: 1.4em;
+    padding: 25px;
+    color: #FE725D;
+}
+.items{
+    font-size: 1.1em;
+}
+.signin{
+    padding: 0.7vw;
+    width: 85px;
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff8a78;
+
+}
+span{
+    color: #FE725D;
+}
+
+
+.content{
+    display: flex;
+}
+
+.right{
+    height: calc(100vh - 100px);
+    width: 45%;
+}
+img{
+    height: 90%;
+    width: 80%;
+}
+
+.left{
+    height: calc(100vh - 100px);
+    width: 55%;
+    padding: 5vw;
+    /* background-color: lightskyblue; */
+    font-size: 2.3vw;
+
+}
+.maintext{
+    padding: 20px;
+}
+
+.info{
+    padding: 20px ;
+    font-size: 1.1vw;
+    box-shadow: 2px #414141;
+    color: #565454;
+}
+.explore{
+    padding: 0.7vw;
+    width: 120px;
+    margin-left: 20px;
+    background-color: #ff8a78;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: medium;
+    font-weight: 500;
+
+}
+button:hover{
+    background-color: #ff6d57;
+}
+
+
+#menu{
+    display: none;
+}
+
+@media (max-width :600px){
+ body{
+    background-color: #fff;
+ } 
+ .cont{
+    height: 50px;
+
+ }
+ .items{
+    display: none;
+ }
+ #menu{
+    display: block;
+ }
+.signin{
+    display: none;
+    padding: 0.7vw;
+    width: 85px;
+    font-weight:bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f5796b;
+}
+.left,.right{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    margin: 0;
+}
+.content{
+    display: flex;;
+    flex-direction: column;
+}
+
+
+}
